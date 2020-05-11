@@ -1,0 +1,10 @@
+{
+  "name": "store",
+  "version": "0.0.1",
+  "description": "Key-value store",
+  "main": "lib/index.js",
+  "author": "subtly <subtly@users.noreply.github.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {},
+  "dependencies": {}
+}

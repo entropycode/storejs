@@ -1,0 +1,13 @@
+This software has not been tested. Do not use in production.
+
+```
+const Store = require('./lib/index')
+const store = new Store
+let value = 'bar'
+store.set('foo', value)
+console.assert(value == store.get('foo'), 'value should be set')
+store.commit()
+console.assert(value == store.get('foo'), 'value should be committed')
+store.revert()
+console.assert(!store.get('foo'), 'value should be reverted')
+```
